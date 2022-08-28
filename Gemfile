@@ -16,6 +16,7 @@ gem 'jekyll' , '3.9.2'
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem 'github-pages'
   gem 'jekyll-feed', "~> 0.12"
   gem 'jekyll-assets', "~> 1.0.0"
   # gem 'jekyll-redirect-from'
