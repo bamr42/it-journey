@@ -107,6 +107,16 @@ Login to gh cli using your github credentials
 gh auth login
 ```
 
+Find your User ID in the [github emails settings](https://github.com/settings/emails)
+more info [here ](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address)
+
+```powershell
+$GIT_ID = Read-Host "What is your Github ID?"
+$GIT_USER_NAME = Read-Host "What is your Github User Name?"
+git config --global user.name "$GIT_ID+$GIT_USER_NAME@users.noreply.github.com"
+git config --global user.email "$GIT_ID+$GIT_USER_NAME@users.noreply.github.com"
+```
+
 ### Install Software Packages (optional)
 
 For a list of packages you can download/install using winget, see [here](https://winget.run/)
@@ -222,6 +232,8 @@ Get-Content extensions.txt | ForEach-Object {code --install-extension $_}
 ## Jekyll & ruby Setup
 
 [Detailed instructions](https://jekyllrb.com/docs/installation/windows/)
+
+[Github Pages Dependancies](https://pages.github.com/versions/)
 
 ### Install Ruby
 
