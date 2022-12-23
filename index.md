@@ -3,16 +3,22 @@ title: Hello World
 lastmod: 2022-08-28T01:51:53.807Z
 ---
 
+{: .collapse .collapsed .breadcrumbs-intro }
+Branch | Build Status
+---------|---------
+Master | [![Build Status](https://app.travis-ci.com/bamr87/it-journey.svg?branch=master)](https://app.travis-ci.com/bamr87/it-journey)
+gh-pages | [![Build Status](https://app.travis-ci.com/bamr87/it-journey.svg?branch=gh-pages)](https://app.travis-ci.com/bamr87/it-journey)
+
 Hello world, and welcome to my site. Click on `Home` in the navigation bar to get started.
 This is the main landing page and it is still a work in process.
 
-Nothing to see here. Yet... but try clicking on the gear icon for a sneak peek.
+Nothing to see here. Yet... but try clicking on the gear icon (or particles) for a sneak peek.
 
-
+<div id="particles-js"></div>
 
 ## Features
 {: .collapse .collapsed .breadcrumbs-intro }
-- [x] Github Pages compatible
+- [x] Github Pages compatibility
 - [ ] Bootstrap 5 CDN
 - [x] Algolia Search indexing
 - [x] Jekyll Site Generation
@@ -32,6 +38,7 @@ Nothing to see here. Yet... but try clicking on the gear icon for a sneak peek.
 
 ### FIXME:
 {: .collapse .collapsed .breadcrumbs-intro }
+- [ ] left sidebar header color
 - [ ] Adjust menu toggle in Mobile view
 - [ ] fix presentation of search results
 - [ ] Need to fix quick index in side bar
@@ -39,6 +46,8 @@ Nothing to see here. Yet... but try clicking on the gear icon for a sneak peek.
 
 ### TODO:
 {: .collapse .collapsed .breadcrumbs-intro }
+- [ ] add 3rd level nav bar drop down option
+- [ ] automate pull request to publish to gh-pages
 - [ ] Add create new post button
 - [ ] add floating "back to top" button
 - [ ] create custom svg icon
@@ -80,6 +89,7 @@ Nothing to see here. Yet... but try clicking on the gear icon for a sneak peek.
 {% capture styles %}{% include_relative _notes/bootstrap-examples.md %}{% endcapture %}{{ styles }}
 </div>
 
+{: .collapse .collapsed .breadcrumbs-intro }
 ```mermaid!
 graph TD;
     A-->B;

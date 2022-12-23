@@ -1,20 +1,25 @@
 ---
-title: zer0-mistakes
+title: "zer0-mistakes with github-pages and jekyll "
+sub-title: The ultimate starting point for full stack developers
 author: bamr87
-excerpt: Building a site with zero mistakes
-description: null
+excerpt: Bashing through systems to 10X levels of expertise
+description: Introductory post to begin your quest on becoming an IT ninja/wizard by
+  building statically generated websites using modern day, open source
+  techniques
 snippet: null
 categories:
   - posts
 tags:
-  - article
+  - bash
+  - github
   - how-to
   - jekyll
-  - github
-  - bash
-meta: null
 draft: true
-lastmod: 2022-07-26T04:57:01.238Z
+lastmod: 2022-12-06T19:20:52.370Z
+keywords:
+  - github
+  - Web Development
+  - jekyll
 ---
 
 {{ page.title }}
@@ -25,7 +30,7 @@ Github Account
 
 [Signup](https://github.com/signup) or [Sign-in](https://github.com/login)
 
-### Machine Setup
+### Master Setup
 
 Install package manager:
 
