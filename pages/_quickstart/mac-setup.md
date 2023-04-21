@@ -4,7 +4,7 @@ author: null
 layout: default
 description: null
 categories:
-    - machine-setup
+    - mac
 slug: mac
 lastmod: '2022-02-14T03:08:28.573Z'
 draft: false
@@ -114,7 +114,7 @@ Or install individually using a loop
 mkdir _quest/init_world/hello-mac/
 ln ../_quest/init_world/hello-mac/hb-packages.sh _quest/init_world/hello-mac/hb-packages.sh
 
-{% include_relative /_quest/init_world/hello-mac/hb-packages.sh %}
+{% include_relative /homebrew/hb-packages.sh %}
 ```
 
 ### Install VS Code
@@ -144,7 +144,7 @@ Ruby is the programming language of choice for Jekyll, and also manages the depe
 
 ```bash
 # Install Ruby
-brew install ruby
+brew install ruby 
 ```
 
 #### Add Ruby to PATH
