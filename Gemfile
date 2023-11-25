@@ -25,9 +25,9 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap' , "~> 1.4.0"
   gem 'jekyll-seo-tag', "~> 2.8.0"
   gem 'jekyll-algolia' 
+  gem 'jekyll-mermaid'
   # gem 'jekyll-redirect-from'
   # gem 'jekyll-paginate'
-  # gem 'jekyll-mermaid'
   # gem 'jekyll-spaceship'
   # gem 'jemoji' # Doesn't work for some reason
 end

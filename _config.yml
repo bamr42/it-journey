@@ -155,6 +155,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-assets
   - jekyll-algolia
+  - jekyll-mermaid
   # - jekyll-spaceship
   # - jemoji # Doesn't work for some reason
   # - jekyll-postcss
