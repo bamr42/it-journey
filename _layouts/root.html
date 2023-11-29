@@ -15,18 +15,19 @@
         {% include head.html %}
     </head>
     <body>
+
+        <script >
+            mermaid.initialize({ startOnLoad: true });
+        </script>
         <!-- _includes/google-tag-mgr.html - SEO -->
         {% include google-tag-mgr.html %}
         
         <!-- _includes/header.html - Header section with main Navigation and Search engine -->
         {% include header.html %}
 
-        <div class="flex-wrap">
-            <!-- Source code location FIXME: -->
-                {% include dev-shortcuts.html %}
-        </div>
         <!-- Content -->
         <div class="container-xl">
+
             {{ content }}
 
         </div>
