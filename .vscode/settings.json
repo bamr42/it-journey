@@ -18,5 +18,6 @@
     "[search-result]": {
         "editor.lineNumbers": "on"
     },
-    "frontMatter.content.autoUpdateDate": true
+    "frontMatter.content.autoUpdateDate": true,
+    "CodeGPT.apiKey": "OpenAI"
 }
