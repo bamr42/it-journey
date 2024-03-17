@@ -1,5 +1,6 @@
 ---
 title: Notes Index
+<<<<<<< HEAD
 updated: 2024-02-07 16:47:26Z
 created: 2024-01-16 23:01:56Z
 ---
@@ -10,6 +11,17 @@ created: 2024-01-16 23:01:56Z
 
 ### testing
 
+=======
+updated: 2024-02-19 23:46:00Z
+created: 2023-12-15 04:10:54Z
+---
+
+# Quick Start
+ test 
+ 
+## Getting Started
+
+>>>>>>> d23cd092e2c097fc84432422d208e31bdb18b568
 [Devops](https://docs.gitlab.com/ee/topics/autodevops/stages.html)
 
 ### Windows
@@ -264,6 +276,7 @@ https://icons.getbootstrap.com/#install
 
 <i class="bi bi-gem"></i>
 
+<<<<<<< HEAD
 ![](../../_resources/penrose-hard-1.png)
 
 ## OS Based instructions
@@ -283,3 +296,17 @@ These instructions are pertinent to Mac users.
 These instructions are pertinent to Windows users.
 
 {% endwindows %}
+=======
+![](../_resources/penrose-hard.png)
+
+## OS Based instructions
+
+TODO: find a way to include OS based instructions using liquid tags
+
+These instructions are pertinent to Mac users.
+
+ These instructions are pertinent to Linux users.
+
+
+These instructions are pertinent to Windows users.
+>>>>>>> d23cd092e2c097fc84432422d208e31bdb18b568

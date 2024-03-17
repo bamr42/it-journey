@@ -1,7 +1,12 @@
 ---
 title: Shell and the CLI
+<<<<<<< HEAD
 updated: 2022-01-05 00:55:02Z
 created: 2024-01-16 23:01:56Z
+=======
+updated: 2022-01-05 07:55:00Z
+created: 2023-12-15 04:10:54Z
+>>>>>>> d23cd092e2c097fc84432422d208e31bdb18b568
 ---
 
 # Command Line

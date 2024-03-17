@@ -1,7 +1,12 @@
 ---
 title: Windows Powershell Cheatsheet
+<<<<<<< HEAD
 updated: 2022-01-10 21:54:00Z
 created: 2024-01-16 23:01:56Z
+=======
+updated: 2022-01-11 04:54:00Z
+created: 2023-12-15 04:10:54Z
+>>>>>>> d23cd092e2c097fc84432422d208e31bdb18b568
 author: bamr87
 tags:
   - note
